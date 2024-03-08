@@ -1,0 +1,76 @@
+#header-container{
+
+    background-color: rgb(251, 232, 224);
+    padding: 15px 0 17px 0;
+    position: fixed;
+    width: 100%;
+}
+#form-holder{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0px 325px 18px 325px;
+    flex-direction: column;
+    background-color:rgb(252, 181, 153);
+    border-radius: 20px;
+    width: 730px;
+    height: 400px;
+    padding-top:45px ;
+    
+}
+
+
+#button:active{
+    background-color: rgb(50, 50, 50);
+}
+#input-box{
+    height: 100px;
+    width: 495px;
+    border-radius: 20px;
+    padding: 0px 10px 0px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#checkbox-container{
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 300;
+}
+#text-boxholder{
+    margin: 10px;
+}
+#main-container{
+    background-color: rgb(253, 219, 206);
+    padding: 132px 0 63px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#footer-container {
+    background-color: #4e2d2d;
+    height: 300px;
+    border-radius: 2px;
+}
+#task-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 13px;
+    margin: 0 0 16px 0;
+    background-color: #ffcece;
+}
+/* #templateButton-container{
+    /* padding: 0 5px 0 10px; */
+
+#templateButton-container>button{
+    margin:2px ;
+    width: 49%;
+}
+#work-discription{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0px;
+}
